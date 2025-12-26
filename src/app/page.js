@@ -13,7 +13,10 @@ export default function page() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <APICallingExample/> */}
-    <UserDataApiCalling/>
+    {/* <UserDataApiCalling/> */}
+    <h1>
+      Home Page
+    </h1>
     </>
   )
 }
