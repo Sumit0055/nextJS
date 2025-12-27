@@ -7,8 +7,11 @@ export default function Navbar() {
     <ul>
         <li><Link href='/'>Home</Link></li>
         <li><Link href='/about'>About</Link></li>
-        <li><Link href='/profile'>Profie</Link></li>
-        <li><Link href='/contactus'>Contact US</Link></li>
+        {/* <li><Link href='/profile/sumit/developer/189000'>Profie</Link></li> */}
+        <li><Link href='/profile/sumit'>Profie</Link></li>
+        <li><Link href='/profile/sumit/developer'>Profie</Link></li>
+        <li><Link href='/profile/sumit/developer/189000'>Profie</Link></li>
+        <li><Link href='/contactus?name=Sumit Dutt&dsg=Developer&salary=189000'>Contact US</Link></li>
     </ul>
     </>
   )
